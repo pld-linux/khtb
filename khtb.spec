@@ -11,6 +11,7 @@ Source0:	http://dl.sourceforge.net/khtb/%{name}-%{version}.tar.gz
 URL:		http://sourceforge.net/projects/khtb/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	kdelibs-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
