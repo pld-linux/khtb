@@ -28,12 +28,14 @@ import-export htb.init tree. Can be used to edit remote htb.init tree
 %{__autoheader}
 %{__automake}
 %configure
-%{__make}
+%{__make} \
+	CFLAGS="%{rpmcflags} -Isrc"
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{makeinstall}
+%{__make} \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
