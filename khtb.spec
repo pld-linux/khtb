@@ -1,6 +1,7 @@
 #
 # TODO: for now it doesn`t build...could anyone fix it?
 Summary:	GUI for htb.init script with XML data storage
+Summary(pl):	Graficzny interfejs dla skryptu htb.init z danymi przechowywanymi w XML-u
 Name:		khtb
 Version:	0.2
 Release:	0.1
@@ -17,7 +18,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 KHtb is a GUI for htb.init script with XML data storage. It can
 import-export htb.init tree. Can be used to edit remote htb.init tree
-(In future).
+(in the future).
+
+%description -l pl
+KHtb to graficzny interfejs u¿ytkownika do skryptu htb.init z
+przechowywaniem danych w formacie XML. Potrafi importowaæ i
+eksportowaæ drzewo htb.init. Mo¿e byæ u¿ywany do modyfikowania
+zdalnych drzew htb.init (w przysz³o¶ci).
 
 %prep
 %setup -q
