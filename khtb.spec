@@ -1,5 +1,5 @@
 Summary:	GUI for htb.init script with XML data storage
-Summary(pl):	Graficzny interfejs dla skryptu htb.init z danymi przechowywanymi w XML-u
+Summary(pl.UTF-8):   Graficzny interfejs dla skryptu htb.init z danymi przechowywanymi w XML-u
 Name:		khtb
 Version:	0.2
 Release:	1
@@ -17,11 +17,11 @@ KHtb is a GUI for htb.init script with XML data storage. It can
 import-export htb.init tree. Can be used to edit remote htb.init tree
 (in the future).
 
-%description -l pl
-KHtb to graficzny interfejs u¿ytkownika do skryptu htb.init z
-przechowywaniem danych w formacie XML. Potrafi importowaæ i
-eksportowaæ drzewo htb.init. Mo¿e byæ u¿ywany do modyfikowania
-zdalnych drzew htb.init (w przysz³o¶ci).
+%description -l pl.UTF-8
+KHtb to graficzny interfejs uÅ¼ytkownika do skryptu htb.init z
+przechowywaniem danych w formacie XML. Potrafi importowaÄ‡ i
+eksportowaÄ‡ drzewo htb.init. MoÅ¼e byÄ‡ uÅ¼ywany do modyfikowania
+zdalnych drzew htb.init (w przyszÅ‚oÅ›ci).
 
 %prep
 %setup -q
