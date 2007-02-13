@@ -1,5 +1,5 @@
 Summary:	GUI for htb.init script with XML data storage
-Summary(pl.UTF-8):   Graficzny interfejs dla skryptu htb.init z danymi przechowywanymi w XML-u
+Summary(pl.UTF-8):	Graficzny interfejs dla skryptu htb.init z danymi przechowywanymi w XML-u
 Name:		khtb
 Version:	0.2
 Release:	1
